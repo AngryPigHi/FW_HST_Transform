@@ -17,5 +17,10 @@ namespace FW_HST_Transform
             InitializeComponent();
         }
 
+        private void ConfigFrm_Load(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }

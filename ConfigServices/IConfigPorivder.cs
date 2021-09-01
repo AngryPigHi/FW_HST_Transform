@@ -2,7 +2,8 @@
 
 namespace ConfigServices
 {
-    public class Class1
+    public class IConfigPorivder
     {
+
     }
 }

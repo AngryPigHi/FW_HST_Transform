@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FW_HST_Transform", "FW_HST_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigServices", "ConfigServices\ConfigServices.csproj", "{72EBC7B6-F569-47D6-9DF9-F90CAEBB99F0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogServices", "LogServices\LogServices.csproj", "{4A601D47-9C58-4A65-9762-68CA3A415BC8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{72EBC7B6-F569-47D6-9DF9-F90CAEBB99F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72EBC7B6-F569-47D6-9DF9-F90CAEBB99F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72EBC7B6-F569-47D6-9DF9-F90CAEBB99F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A601D47-9C58-4A65-9762-68CA3A415BC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A601D47-9C58-4A65-9762-68CA3A415BC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A601D47-9C58-4A65-9762-68CA3A415BC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A601D47-9C58-4A65-9762-68CA3A415BC8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
