@@ -1,0 +1,16 @@
+﻿{
+  "SQLServerConfig": {
+    "Server": "",
+    "Database": "",
+    "UserId": "",
+    "Password": ""
+  },
+  "OracleConfig": {
+    "UserId": "",
+    "Password": "",
+    "DataSource": "",
+    "Host": "",
+    "Port": "",
+    "ServiceName": ""
+  }
+}

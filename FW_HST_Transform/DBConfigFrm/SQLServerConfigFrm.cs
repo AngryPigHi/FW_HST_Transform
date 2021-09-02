@@ -8,21 +8,19 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace FW_HST_Transform
+namespace FW_HST_Transform.DBConfigFrm
 {
-    public partial class ConfigFrm : Form
+    public partial class SQLServerConfigFrm : Form
     {
-        public ConfigFrm()
+        public SQLServerConfigFrm()
         {
             InitializeComponent();
         }
 
-        private void ConfigFrm_Load(object sender, EventArgs e)
-        {
-            //1.从文件中读取已有的数据库连接配置（展示在文本框中）
+        //将配置写入配置文件（本地Json）
 
 
-        }
+        //从本地读取已有的配置（本地Json）
 
     }
 }

@@ -2,8 +2,10 @@
 
 namespace ConfigServices
 {
-    public class IConfigPorivder
+    public interface IConfigPorivder
     {
+        public string GetConnectStrings();
+
 
     }
 }
