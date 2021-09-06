@@ -24,5 +24,11 @@ namespace FW_HST_Transform
 
         }
 
+        private void btnStartTransform_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            TransformFrm frm = new TransformFrm();
+            frm.Show();
+        }
     }
 }

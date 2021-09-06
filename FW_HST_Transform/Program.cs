@@ -17,7 +17,7 @@ namespace FW_HST_Transform
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ConfigFrm());
+            Application.Run(new CHBASearchFrm());
         }
     }
 }

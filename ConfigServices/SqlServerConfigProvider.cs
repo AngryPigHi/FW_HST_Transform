@@ -19,7 +19,7 @@ namespace ConfigServices
 
             var data = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase);
 
-            //读取私密配置
+            //读取json配置
 
 
         }

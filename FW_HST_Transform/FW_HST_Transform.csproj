@@ -17,6 +17,13 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DBHelperServices\SQLDBHelperServices.csproj" />
+    <ProjectReference Include="..\OracleDBHelperServices\OracleDBHelperServices.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Oracle.ManagedDataAccess">
+      <HintPath>..\..\BDCDJ_TC_Tool\DBCDAL\bin\Debug\Oracle.ManagedDataAccess.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

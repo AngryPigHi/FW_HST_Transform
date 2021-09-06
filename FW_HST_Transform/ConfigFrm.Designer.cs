@@ -108,6 +108,7 @@ namespace FW_HST_Transform
             this.btnStartTransform.TabIndex = 7;
             this.btnStartTransform.Text = "开始迁移";
             this.btnStartTransform.UseVisualStyleBackColor = true;
+            this.btnStartTransform.Click += new System.EventHandler(this.btnStartTransform_Click);
             // 
             // ConfigFrm
             // 
