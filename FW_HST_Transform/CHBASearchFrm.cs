@@ -102,21 +102,35 @@ namespace FW_HST_Transform
 
         private void btnClearSM_Click(object sender, EventArgs e)
         {
-            txtSM.Text = "";
+            txtSGZH.Text = "";
         }
 
         private void btnSearchShi_Click(object sender, EventArgs e)
         {
             string sh = txtSH.Text.Trim();
-            string sm = txtSM.Text.Trim();
+            string sgzh = txtSGZH.Text.Trim();
 
-            if (sh.Length>0||sm.Length>0)
+            if (sh.Length>0||sgzh.Length>0)
             {
-
+                List<TcchShiTmp> shis = new List<TcchShiTmp>();
                 if (ckbIsUnique.Checked)
                 {
-                    var shis = _shisList.Where(p => p.Sh == sh)
+                    if (sh.Length>0&&sgzh.Length>0)
+                    {
+                        shis = _shisList.Where(p => p.Sh == sh&&p.Sgzh==sgzh)
                         .ToList();
+                    }
+                    else if (sh.Length > 0)
+                    {
+                        shis = _shisList.Where(p => p.Sh == sh )
+                        .ToList();
+                    }
+                    else if(sgzh.Length > 0)
+                    {
+                        shis = _shisList.Where(p =>p.Sgzh == sgzh)
+                        .ToList();
+                    }
+
                     dataGridView2.DataSource = shis;
                     lblShiTips.Text = $"共加载{shis.Count}条记录。";
                     if (shis.Count>0)
@@ -135,10 +149,22 @@ namespace FW_HST_Transform
                 }
                 else
                 {
-                    //var shis = _shisList.Where(p => EF.Functions.Like(p.Sh, sh) || EF.Functions.Like(p.Sm, sm))
-                        //.ToList();
-                    var shis = _shisList.Where(p => p.Sh.Contains(sh))
+                    if (sh.Length > 0 && sgzh.Length > 0)
+                    {
+                        shis = _shisList.Where(p => p.Sh.Contains(sh) && p.Sgzh.Contains(sgzh))
+                        .ToList();
+                    }
+                    else if (sh.Length > 0)
+                    {
+                        _shisList.Where(p => p.Sh.Contains(sh))
                          .ToList();
+                    }
+                    else if (sgzh.Length > 0)
+                    {
+                        shis = _shisList.Where(p => p.Sgzh.Contains(sgzh))
+                        .ToList();
+                    }
+
                     dataGridView2.DataSource = shis;
                     lblShiTips.Text = $"共加载{shis.Count}条记录。";
                     if (shis.Count > 0)

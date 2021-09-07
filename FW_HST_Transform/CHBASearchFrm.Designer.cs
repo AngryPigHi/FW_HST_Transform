@@ -36,7 +36,7 @@ namespace FW_HST_Transform
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label3 = new System.Windows.Forms.Label();
             this.txtSH = new System.Windows.Forms.TextBox();
-            this.txtSM = new System.Windows.Forms.TextBox();
+            this.txtSGZH = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.btnSearchItem = new System.Windows.Forms.Button();
             this.btnSearchShi = new System.Windows.Forms.Button();
@@ -121,21 +121,21 @@ namespace FW_HST_Transform
             this.txtSH.Size = new System.Drawing.Size(186, 23);
             this.txtSH.TabIndex = 6;
             // 
-            // txtSM
+            // txtSGZH
             // 
-            this.txtSM.Location = new System.Drawing.Point(89, 199);
-            this.txtSM.Name = "txtSM";
-            this.txtSM.Size = new System.Drawing.Size(171, 23);
-            this.txtSM.TabIndex = 8;
+            this.txtSGZH.Location = new System.Drawing.Point(89, 199);
+            this.txtSGZH.Name = "txtSGZH";
+            this.txtSGZH.Size = new System.Drawing.Size(171, 23);
+            this.txtSGZH.TabIndex = 8;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(41, 202);
+            this.label4.Location = new System.Drawing.Point(17, 202);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(44, 17);
+            this.label4.Size = new System.Drawing.Size(68, 17);
             this.label4.TabIndex = 7;
-            this.label4.Text = "室名：";
+            this.label4.Text = "施工幢号：";
             // 
             // btnSearchItem
             // 
@@ -334,7 +334,7 @@ namespace FW_HST_Transform
             this.Controls.Add(this.dataGridView2);
             this.Controls.Add(this.btnSearchShi);
             this.Controls.Add(this.btnSearchItem);
-            this.Controls.Add(this.txtSM);
+            this.Controls.Add(this.txtSGZH);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txtSH);
             this.Controls.Add(this.label3);
@@ -362,7 +362,7 @@ namespace FW_HST_Transform
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtSH;
-        private System.Windows.Forms.TextBox txtSM;
+        private System.Windows.Forms.TextBox txtSGZH;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button btnSearchItem;
         private System.Windows.Forms.Button btnSearchShi;

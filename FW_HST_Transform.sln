@@ -9,9 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfigServices", "ConfigSer
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogServices", "LogServices\LogServices.csproj", "{4A601D47-9C58-4A65-9762-68CA3A415BC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLDBHelperServices", "DBHelperServices\SQLDBHelperServices.csproj", "{3591AE5E-50AC-40BD-8E8D-5C2CD5D4D5E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SQLDBHelperServices", "DBHelperServices\SQLDBHelperServices.csproj", "{3591AE5E-50AC-40BD-8E8D-5C2CD5D4D5E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OracleDBHelperServices", "OracleDBHelperServices\OracleDBHelperServices.csproj", "{0F923A25-3A01-4F12-9874-8450AA3F0C8C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OracleDBHelperServices", "OracleDBHelperServices\OracleDBHelperServices.csproj", "{0F923A25-3A01-4F12-9874-8450AA3F0C8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDFServices", "PDFServices\PDFServices.csproj", "{86292E7E-E52E-4D47-9FBD-80FD1FA1B750}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDFToPngCmd", "PDFToPngCmd\PDFToPngCmd.csproj", "{92F9F30F-AABD-4379-BF50-76702E85A977}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{0F923A25-3A01-4F12-9874-8450AA3F0C8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F923A25-3A01-4F12-9874-8450AA3F0C8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F923A25-3A01-4F12-9874-8450AA3F0C8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86292E7E-E52E-4D47-9FBD-80FD1FA1B750}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86292E7E-E52E-4D47-9FBD-80FD1FA1B750}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86292E7E-E52E-4D47-9FBD-80FD1FA1B750}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86292E7E-E52E-4D47-9FBD-80FD1FA1B750}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92F9F30F-AABD-4379-BF50-76702E85A977}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92F9F30F-AABD-4379-BF50-76702E85A977}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92F9F30F-AABD-4379-BF50-76702E85A977}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92F9F30F-AABD-4379-BF50-76702E85A977}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

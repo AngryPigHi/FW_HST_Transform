@@ -18,6 +18,7 @@
   <ItemGroup>
     <ProjectReference Include="..\DBHelperServices\SQLDBHelperServices.csproj" />
     <ProjectReference Include="..\OracleDBHelperServices\OracleDBHelperServices.csproj" />
+    <ProjectReference Include="..\PDFServices\PDFServices.csproj" />
   </ItemGroup>
 
   <ItemGroup>
